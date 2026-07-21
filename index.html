@@ -7,27 +7,28 @@
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:Arial,sans-serif;background:#111;color:#fff}
-header{padding:18px 8%;display:flex;justify-content:space-between;align-items:center;background:#000;position:sticky;top:0}
-.logo{color:#e10600;font-size:28px;font-weight:bold}
-nav a{color:#fff;text-decoration:none;margin-left:20px}
-.hero{padding:90px 8%;text-align:center;background:#1a1a1a}
-.hero h1{font-size:48px;color:#fff}
-.hero p{margin:20px auto;max-width:700px;color:#ccc}
-.btn{display:inline-block;padding:14px 30px;background:#e10600;color:#fff;text-decoration:none;border-radius:6px;margin:5px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;padding:60px 8%}
-.card{background:#1b1b1b;border-radius:12px;overflow:hidden;transition:.3s}
-.card:hover{transform:translateY(-8px)}
-.card img{width:100%;height:220px;object-fit:cover}
-.card div{padding:18px}
-.price{font-size:24px;color:#e10600;margin:10px 0}
-footer{background:#000;padding:40px;text-align:center;color:#999}
-.whatsapp{position:fixed;right:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:28px}
+header{position:sticky;top:0;background:#000;padding:18px 8%;display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:28px;font-weight:bold;color:#d50000}
+nav a{color:#fff;text-decoration:none;margin-left:18px}
+.hero{padding:90px 8%;text-align:center;background:linear-gradient(135deg,#111,#222)}
+.hero h1{font-size:48px;margin-bottom:15px}
+.hero p{max-width:850px;margin:auto;color:#ccc;line-height:1.7}
+.btn{display:inline-block;margin:10px;padding:14px 30px;background:#d50000;color:#fff;text-decoration:none;border-radius:6px;font-weight:bold}
+h2{text-align:center;margin:70px 0 30px;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;padding:0 8% 70px}
+.card{background:#1c1c1c;border-radius:10px;padding:25px;border:1px solid #333;transition:.3s}
+.card:hover{transform:translateY(-8px);border-color:#d50000}
+.icon{font-size:50px;text-align:center;margin-bottom:15px}
+.price{color:#ff4444;font-size:28px;font-weight:bold;margin:15px 0}
+.contact{padding:70px 8%;text-align:center;background:#191919}
+footer{text-align:center;padding:25px;background:#000;color:#888}
+.float{position:fixed;right:20px;bottom:20px;width:60px;height:60px;background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:28px;color:#fff}
 </style>
 </head>
 <body>
 
 <header>
-<div class="logo">MJT Performance</div>
+<div class="logo">MJT PERFORMANCE</div>
 <nav>
 <a href="#products">Products</a>
 <a href="#contact">Contact</a>
@@ -35,62 +36,98 @@ footer{background:#000;padding:40px;text-align:center;color:#999}
 </header>
 
 <section class="hero">
-<h1>Performance Brake Systems</h1>
-<p>Premium braking solutions engineered for high-performance road and track vehicles.</p>
+<h1>Ford Performance Brake Parts</h1>
+<p>
+MOUNTFORD JONES TALENT LIMITED supplies premium performance braking components for Ford Fiesta ST, Focus ST, Focus RS and Mustang.
+We can also source performance brake systems and automotive parts for many other manufacturers upon request.
+</p>
+<br>
 <a class="btn" href="https://wa.me/447988503921">WhatsApp</a>
 <a class="btn" href="mailto:kloeliztomkin101@outlook.com">Email</a>
 </section>
 
-<section id="products" class="grid">
+<h2 id="products">Featured Products</h2>
+
+<div class="grid">
 
 <div class="card">
-<img src="https://picsum.photos/600/400?random=1" alt="">
-<div>
+<div class="icon">🛞</div>
 <h3>Performance 4-Piston Front Brake Kit</h3>
+<p>330 mm vented discs with forged 4-piston calipers.</p>
 <div class="price">£900</div>
 </div>
-</div>
 
 <div class="card">
-<img src="https://picsum.photos/600/400?random=2" alt="">
-<div>
+<div class="icon">🛞</div>
 <h3>Performance 6-Piston Front Brake Kit</h3>
+<p>356 mm performance kit for demanding road & track use.</p>
 <div class="price">£1,445</div>
 </div>
-</div>
 
 <div class="card">
-<img src="https://picsum.photos/600/400?random=3" alt="">
-<div>
-<h3>Rear Performance Brake Kit</h3>
-<div class="price">£650</div>
-</div>
-</div>
-
-<div class="card">
-<img src="https://picsum.photos/600/400?random=4" alt="">
-<div>
-<h3>Performance Brake Discs</h3>
+<div class="icon">⚙️</div>
+<h3>Ford Fiesta ST Brake Discs</h3>
+<p>High-carbon vented performance discs.</p>
 <div class="price">£320</div>
 </div>
+
+<div class="card">
+<div class="icon">⚙️</div>
+<h3>Ford Focus ST Brake Disc Set</h3>
+<p>Precision-machined front disc pair.</p>
+<div class="price">£355</div>
 </div>
 
-</section>
+<div class="card">
+<div class="icon">🧰</div>
+<h3>Ford Focus RS Brake Pads</h3>
+<p>Ceramic low-dust performance pads.</p>
+<div class="price">£185</div>
+</div>
 
-<section id="contact" style="padding:70px 8%;text-align:center">
-<h2>Contact</h2>
-<p>MOUNTFORD JONES TALENT LIMITED</p>
-<p>📞 <a href="tel:+447988503921" style="color:#fff">+44 7988 503921</a></p>
-<p>📧 <a href="mailto:kloeliztomkin101@outlook.com" style="color:#fff">kloeliztomkin101@outlook.com</a></p>
+<div class="card">
+<div class="icon">🔩</div>
+<h3>Braided Brake Line Kit</h3>
+<p>Stainless steel braided hoses.</p>
+<div class="price">£95</div>
+</div>
+
+<div class="card">
+<div class="icon">🧪</div>
+<h3>Performance Brake Fluid DOT 4</h3>
+<p>High boiling point racing fluid.</p>
+<div class="price">£29</div>
+</div>
+
+<div class="card">
+<div class="icon">🔧</div>
+<h3>Wheel Stud Conversion Kit</h3>
+<p>Heavy-duty motorsport hardware.</p>
+<div class="price">£75</div>
+</div>
+
+</div>
+
+<section id="contact" class="contact">
+<h2>Contact Us</h2>
+
+<p><strong>MOUNTFORD JONES TALENT LIMITED</strong></p><br>
+
+<p>📞 <a href="tel:+447988503921" style="color:#fff;text-decoration:none;">+44 7988 503921</a></p>
+
+<p>📧 <a href="mailto:kloeliztomkin101@outlook.com" style="color:#fff;text-decoration:none;">kloeliztomkin101@outlook.com</a></p>
+
 <br>
+
 <a class="btn" href="https://wa.me/447988503921">Chat on WhatsApp</a>
+
 </section>
 
 <footer>
 © 2026 MOUNTFORD JONES TALENT LIMITED
 </footer>
 
-<a class="whatsapp" href="https://wa.me/447988503921">💬</a>
+<a class="float" href="https://wa.me/447988503921">💬</a>
 
 </body>
 </html>
